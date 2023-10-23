@@ -1,0 +1,17 @@
+body {
+    background-image: url("https://i.imgur.com/QdMWFHZ.jpg")
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(6px);
+    padding: 30px;
+    width: 70vw;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+  }
+
+
+
