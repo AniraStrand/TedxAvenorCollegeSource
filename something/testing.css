@@ -104,7 +104,7 @@ h1{
 
 /* TICKETS */
 #tickets {
-    width: 100vw;
+    width: auto;
     height: 66.6666vw;
     background-color:black;
 
