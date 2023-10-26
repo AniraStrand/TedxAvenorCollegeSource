@@ -74,13 +74,6 @@ h1{
     background-image: url(https://i.pinimg.com/736x/12/83/f6/1283f6460ac7b070931dd3ad45543212.jpg);
 }
 
-@-webkit-keyframes carousel {
-    0% {left: 0px;}
-    50% {left: 1000px;}
-    100% {left: 2000px;}
-    
-}
-
 .date_and_location {
     background-color: black;
     color: white;
@@ -229,4 +222,23 @@ top: 35%;
 a {
     text-decoration: none;
     color: inherit;
+}
+
+@media only screen and (max-width: 600px) { /* for mobile devices */
+    #image_1 {
+        background-image: url(https://i.pinimg.com/1200x/10/9b/5e/109b5e84fd01c7dc621ce1011b2a96d9.jpg);
+        
+    }
+    
+    #image_2 {
+        background-image: url(https://i.pinimg.com/1200x/ed/8a/52/ed8a525e21a68914a69ef63a548d07eb.jpg);
+    }
+    
+    #image_3 {
+        background-image: url(https://i.pinimg.com/originals/2d/d0/1e/2dd01e9499dc3a4d51cc42dc837ad038.jpg);
+    }
+    
+    #image_4 {
+        background-image: url(https://i.pinimg.com/564x/55/d5/38/55d538b54671c261f18cbb5a76c34d81.jpg);
+    }
 }
