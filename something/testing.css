@@ -10,6 +10,34 @@ h1{
     padding: 0;
 }
 
+
+
+/* TOP BAR */
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    backdrop-filter: blur(6px);
+    padding: 1% 0;
+    width: 90vw;
+    height: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(54, 56, 120, 0.1);
+    border-radius: calc((1vh-1vw)/2);
+    position: fixed;
+    left: 5vw;
+    top: 5vh;
+    border-radius: 1vw;
+    z-index: 1000;
+}
+
+#bar {
+    width: 100%;
+}
+
+
+
+/* CAROUSEL */
 .carousel_frame {
     background-color: aqua;
     height: 80vh;
@@ -58,8 +86,7 @@ h1{
 }
 
 #image_1 {
-    background-image: url(https://64.media.tumblr.com/26796dd6e64fea34b799a65771a81fc3/tumblr_o5y5qj8Kvg1unkq7zo4_400.png);
-    
+    background-image: url(https://64.media.tumblr.com/26796dd6e64fea34b799a65771a81fc3/tumblr_o5y5qj8Kvg1unkq7zo4_400.png); 
 }
 
 #image_2 {
@@ -74,64 +101,8 @@ h1{
     background-image: url(https://i.pinimg.com/736x/12/83/f6/1283f6460ac7b070931dd3ad45543212.jpg);
 }
 
-.date_and_location {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 0.5%;
-    padding-bottom: -5%;
-}
 
-.google_map {
-    padding-bottom: 45%;
-    position: relative;
-    text-align: center;
-}
-
-.google_map iframe {
-    position: absolute;
-    top: 0;
-    left: 10%;
-    bottom: 0;
-    right: 0;
-    width: 80%;
-    height: 95%;
-    border: none;
-}
-
-
-
-
-
-
-
-
-.container {
-    display: flex;
-    justify-content: space-evenly;
-    backdrop-filter: blur(6px);
-    padding: 1% 0;
-    width: 90vw;
-    height: 5vh;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: rgba(54, 56, 120, 0.1);
-    border-radius: calc((1vh-1vw)/2);
-    position: fixed;
-    left: 5vw;
-    top: 5vh;
-    border-radius: 1vw;
-    z-index: 1000;
-}
-
-#bar {
-    width: 100%;
-}
-
-
-
-
-
+/* TICKETS */
 #tickets {
     width: 100vw;
     height: 66.6666vw;
@@ -224,7 +195,37 @@ a {
     color: inherit;
 }
 
-@media only screen and (max-width: 600px) { /* for mobile devices */
+
+
+/* DATE AND LOCATION */
+.date_and_location {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 0.5%;
+    padding-bottom: -5%;
+}
+
+.google_map {
+    padding-bottom: 45%;
+    position: relative;
+    text-align: center;
+}
+
+.google_map iframe {
+    position: absolute;
+    top: 0;
+    left: 10%;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    height: 95%;
+    border: none;
+}
+
+
+/* FOR MOBILE */
+@media only screen and (max-width: 600px) { 
     #image_1 {
         background-image: url(https://i.pinimg.com/1200x/10/9b/5e/109b5e84fd01c7dc621ce1011b2a96d9.jpg);
         
