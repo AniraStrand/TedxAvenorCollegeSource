@@ -15,6 +15,7 @@ h1{
     padding: 0;
 }
 
+/* CAROUSEL */
 .carousel_frame {
     background-color: aqua;
     height: 80vh;
@@ -23,11 +24,6 @@ h1{
     padding-right: 3%;
     padding-bottom: 2%;
 }
-
-
-
-
-
 
 .carousel_container {
     width: 100%;
@@ -68,29 +64,24 @@ h1{
 }
 
 #image_1 {
-    background-image: url(https://64.media.tumblr.com/26796dd6e64fea34b799a65771a81fc3/tumblr_o5y5qj8Kvg1unkq7zo4_400.png);
-    
+    background-image: url(/img/1wide.jpg);
 }
 
 #image_2 {
-    background-image: url(https://i.pinimg.com/564x/fa/75/83/fa7583903f87bc6245874e57a1ffc896.jpg);
+    background-image: url(/img/2wide.jpg);
 }
 
 #image_3 {
-    background-image: url(https://i.pinimg.com/736x/c7/38/d8/c738d8775ee694b437004b6383a483a8.jpg);
+    background-image: url(/img/3wide.jpg);
 }
 
 #image_4 {
-    background-image: url(https://i.pinimg.com/736x/12/83/f6/1283f6460ac7b070931dd3ad45543212.jpg);
+    background-image: url(/img/4wide.jpg);
 }
 
-@-webkit-keyframes carousel {
-    0% {left: 0px;}
-    50% {left: 1000px;}
-    100% {left: 2000px;}
-    
-}
 
+
+/* DATE AND LOCATION */
 .date_and_location {
     background-color: black;
     color: white;
@@ -329,6 +320,23 @@ marquee {
 
 
 @media only screen and (max-width: 600px) {
+    /* CAROUSEL */
+     #image_1 {
+        background-image: url(/img/1port.jpg);
+        
+    }
+    
+    #image_2 {
+        background-image: url(/img/2port.jpg);
+    }
+    
+    #image_3 {
+        background-image: url(/img/3port.jpg);
+    }
+    
+    #image_4 {
+        background-image: url(/img/4port.jpg);
+    }
 
     .speaker_table {
         top: 5vh;
@@ -371,8 +379,6 @@ marquee {
 
 
 }
-
-
 
 .whattitle {
     font-size: 70px;
