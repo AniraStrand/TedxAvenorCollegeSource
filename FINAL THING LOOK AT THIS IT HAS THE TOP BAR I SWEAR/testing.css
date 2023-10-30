@@ -290,7 +290,8 @@ marquee {
 }
 
 .speaker_container {
-    background-color: #f1f1f1;
+    background-color: #f1f1f1a7;
+    border-radius: 20px;
     width: 50vh;
     height: 18vh;
     margin: 1vh;
@@ -299,11 +300,13 @@ marquee {
 }
 
 .speaker_title {
+    font-family: Arial, Helvetica, sans-serif;
     float: left;
     font-size: 4vh;
 }
 
 .speaker_sub {
+    font-family: Arial, Helvetica, sans-serif;
     float: left;
     font-size: 2vh;
 }
@@ -364,7 +367,7 @@ marquee {
     
     .speaker_sub {
         float: left;
-        font-size: 2vh;
+        font-size: 1.7vh;
         margin-top: -5%;
     }
 
@@ -390,4 +393,3 @@ marquee {
 .legalbox{
     background-color: #6b6b6b;
 }
-
