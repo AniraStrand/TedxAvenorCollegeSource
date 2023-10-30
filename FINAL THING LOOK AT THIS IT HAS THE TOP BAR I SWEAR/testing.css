@@ -129,6 +129,7 @@ h1{
 .footer-para {
     background-color: #e62b1e;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 1%;
 }
@@ -266,7 +267,7 @@ marquee {
     font-size: 12.5vh;
     font-family: Arial, Helvetica, sans-serif;
     z-index: 0;
-    color: rgb(35,39,48);
+    color: rgb(255, 0, 0);
     color: -moz-linear-gradient(36deg, rgba(35,39,48,1) 0%, rgba(38,38,125,1) 35%, rgba(42,58,96,1) 100%);
     color: -webkit-linear-gradient(36deg, rgba(35,39,48,1) 0%, rgba(38,38,125,1) 35%, rgba(42,58,96,1) 100%);
     color: linear-gradient(36deg, rgba(35,39,48,1) 0%, rgb(36, 36, 58) 35%, rgba(42,58,96,1) 100%);
@@ -393,3 +394,4 @@ marquee {
 .legalbox{
     background-color: #6b6b6b;
 }
+
